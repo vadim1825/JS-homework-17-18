@@ -52,3 +52,5 @@ gulp.task('watch', function(){
   gulp.watch('app/scss/style1.scss', ['sass']);
   gulp.watch('app/main_css/style1.css', ['css']);
 });
+
+gulp.task('default', ['scripts', 'compress', 'sass', 'css', 'watch']);
