@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.container {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@import 'mixines';
+
+@import 'style2';
+
+@import 'style3';
+
+@import 'style4';

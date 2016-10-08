@@ -1,0 +1,19 @@
+@mixin paragraph_left($top, $left, $width, $margin_left) {
+	
+	position: absolute;
+	top: $top;
+	left: $left;
+	width: $width;
+	margin-left: $margin_left;
+	font-size: 50px;
+}
+
+@mixin paragraph_right($top, $right, $width, $margin_right) {
+	
+	position: absolute;
+	top: $top;
+	right: $right;
+	width: $width;
+	margin-right: $margin_right;
+	font-size: 50px;
+}
